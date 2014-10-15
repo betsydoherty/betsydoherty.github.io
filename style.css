@@ -1,7 +1,7 @@
 body {
   font-family: 'Cabin', sans-serif;
   font-weight: 300;
-  background: url(betsybackground.jpg) repeat;
+  background: url(wood.jpg) repeat;
   background-size: 1400px;
     background-position: center center;
     background-attachment: fixed;
@@ -22,4 +22,19 @@ img{
     margin: 20px auto;
     padding: 20px;
     text-align: center;
+}
+h1 {
+  color:white;
+}
+p {
+  color:white;
+}
+h2 {
+  color:white;
+}
+h4 {
+  color:white;
+}
+li {
+  color:white;
 }
