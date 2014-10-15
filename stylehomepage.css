@@ -1,34 +1,31 @@
 body {
   font-family: 'Cabin', sans-serif;
   font-weight: 300;
-  background: url(Kellogg.jpg)no-repeat;
+  background: url(wood.jpg)no-repeat;
 	background-size: 1370px;
   	background-position: center center;
   	background-attachment: fixed;
 }
 #wrapper {
-    background-color: white;
-    width: 960px;
+  width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+}
+li {
+  color: white;
+}
+img{
+    border: 1px solid grey;
+    border-radius: 9999999px;
+    box-shadow: 10px 10px 10px grey;
+}
+#footer{
+    color: white;
     margin: 20px auto;
-    border: 3px solid purple;
-    padding: 10px;
-	opacity: 0.8;
+    padding: 20px;
+    text-align: center;
 }
 h1 {
-	font-size: 60px; 
-	font-style: italic;
-	color: purple;
-	text-align: center;
-}
-h4 {
-	font-size: 20px; 
-	font-style: italic;
-	color: purple;
-}	
-p, li{
-	line-height: 26px;
-}
-table, th, td {
-   border: 1px solid black;
-   padding: 2px;
+  color: white;
+  text-align: center;
 }
