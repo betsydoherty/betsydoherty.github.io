@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kellogg Life</title>
+  <title>Bootstrap Me</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="stylehomepage.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
-<body> 
+<body>
+
+  
   <ul class="nav nav-tabs" role="tablist">
-  <li class><a href="#">Home</a></li>
-  <li class><a href="events.html">Events</a></li>
-  <li class><a href="aboutus.html">About Us</a></li>
-  <li class><a href="contactus.html">Contact Us</a></li>
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="index.html">About Us</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
 </ul>
+
+
+  <!-- First we need to create a container <div class="container">-->
+  <!-- Adding -fluid to the container makes it constantly resize-->
   <div class="container-fluid">
     <div class="jumbotron text-center">
     <h1> Our First Year at Kellogg </h1>
@@ -25,43 +30,27 @@
         This site will give you a glimpse into the wonderful world of a first year student at the Kellogg School of Management.  
     <p>
   </div>
+
+  <!-- Then we create rows <div class="row"> -->
+  <!-- Then we create columns for each row <div class="col-md-12"> -->
+  <!-- And specify that each row has columns that are a certain width; in this case it is 6 columns wide; these should add up to 12, so 4 columns would each be 3, 3 columns would each be 4 etc.-->
+  <!-- md applies to medium or large devices 992+ pixels or larger--> 
+  <!-- If we make it smaller than 992 pixels, then this stacks on top of each other; we can change this to be sm for smaller devices-->
+  
     <div class="row">
-      <div class="col-md-5 text-center">
-      <img src="Kellogg.jpg" width="550" class="img-responsive img-thumbnail" alt="Responsive image">
-      <br>
-      <br>
-      <br>
-      <img src="CIM2.JPG" width="550" class="img-responsive img-thumbnail" alt="Responsive image">
-      <br>
-      <br>
-      <br>
-      <img src="brazil2.JPG" width="550" class="img-responsive img-thumbnail" alt="Responsive image">
-      <br>
-      <br>
-      <br>
+      <div class="col-md-9">
+      <h1>Benefit 1</h1>
+      </p>
       </div>
-      <div class="col-md-5 text-center">
-      <img src="CIM.JPG" width="550" class="img-responsive img-thumbnail" alt="Responsive image">
-      <br>
-      <br>
-      <br>
-      <img src="brazil.JPG" width="550" class="img-responsive img-thumbnail" alt="Responsive image">
-      <br>
-      <br>
-      <br>
-      <img src="brazil3.JPG" width="550" class="img-responsive img-thumbnail" alt="Responsive image">
-      <br>
-      <br>
-      <br>
-      </div>
-      <div class="col-md-2 text=center hidden-xs">
-      <h1>Kellogg Resources</h1>
+      <div class="col-md-3 text-center" hidden-xs>
+      <h1>Resources</h1>
       <h3><a href="http://www.kellogg.northwestern.edu/programs/full-time-mba.aspx" class="btn btn-info btn-block">Aacdemic Overview </a></h3>
       <h3><a href="http://www.kellogg.northwestern.edu/academic_calendar.aspx" class="btn btn-info btn-block">Academic Calendar </a></h3>
       <h3><a href="http://www.kellogg.northwestern.edu/fin_aid/" class="btn btn-info btn-block">Financial Aid </a></h3>
       </p>
       </div>
   </div>
+  
   </div>
   </div>
 </body>
