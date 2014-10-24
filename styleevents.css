@@ -7,6 +7,8 @@ body {
   background-attachment: fixed;
 }
 
+img {border: 5px solid white;}
+
 .portfolio-item {
     margin-bottom: 25px;
 }
