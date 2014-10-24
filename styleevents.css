@@ -1,35 +1,60 @@
 body {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'lucida sans unicode', lucida grande, sans-serif;
   font-weight: 300;
-  background: url(wood.jpg) repeat;
-  background-size: 1400px;
-    background-position: center center;
-    background-attachment: fixed;
+  background: url(wood.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
 }
 #wrapper {
-  width: 960px;
+  width: 1060px;
   margin: 20px auto;
   padding: 20px;
 }
 
 #footer{
-    color: white;
-    margin: 20px auto;
-    padding: 20px;
-    text-align: center;
+  color: white;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
 }
-h1 {
+
+h1{
   color:white;
 }
-p {
+
+h2{
   color:white;
 }
-h2 {
+
+h1 small{
   color:white;
 }
-h4 {
+
+p{
   color:white;
 }
-li {
+
+h3{
   color:white;
+}
+
+h4{
+  color:white;
+}
+
+li{
+  color:white;
+}
+
+form{
+  color: white;
 }
